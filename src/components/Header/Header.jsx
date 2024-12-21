@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css'
 const Header = () => {
     return (
         <section className="h-wrapper">
@@ -9,10 +10,15 @@ const Header = () => {
                     <a href="">Rasidents</a>
                     <a href="">Our Value</a>
                     <a href="">Contact Us</a>
-                    <a href="">Get Started</a>
-                    <a href="">Contact</a>
-                </div>
+
+
+
+                     <a href="">Get Started</a>
+                        <button>
+                            <a href="">Contact</a>
+                        </button>
             </div>
+        </div>
         </section>
     )
 }
