@@ -1,7 +1,14 @@
+
+import Header from "./components/Header/Header.jsx";
+
 function App() {
     return (
-        <span>subscrif gf eepscode</span>
+        <div className={App}>
+            <Header/>
+
+        </div>
     );
 }
+
 
 export default App;
