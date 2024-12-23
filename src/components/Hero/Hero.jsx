@@ -17,8 +17,8 @@ const Hero = () => {
                         </h1>
                     </div>
                     <div className="flexColStart hero-desc">
-                        <span>Find a variety of properties of that suit you very easilty</span>
-                        <span>Forget all difficult in finding a residence for you</span>
+                        <span className="secondaryText">Find a variety of properties of that suit you very easilty</span>
+                        <span className="secondaryText">Forget all difficult in finding a residence for you</span>
                     </div>
                     <div className="flexCenter search-bar">
                         <HiLocationMarker color="var(--blue)" size={25}/>
