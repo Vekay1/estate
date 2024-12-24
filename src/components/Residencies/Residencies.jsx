@@ -35,4 +35,12 @@ const Residencies = () => {
     );
 };
 
-export default Residencies
+export default Residencies;
+
+const SliderButtons =()=>{
+    return(
+        <div className="r-button">
+            buttons
+        </div>
+    )
+}
