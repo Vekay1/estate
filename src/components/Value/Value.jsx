@@ -20,6 +20,24 @@ const Value = () => {
                         <img src="./value.png" alt=""/>
                     </div>
                 </div>
+                <div className="flexColStart v-right">
+                    <span className="orangeText">Our Value</span>
+                    <span className="primaryText">Value We Give to You</span>
+                    <span className="secondaryText">
+                        We always ready to help by providijg the best services for you.<br />
+                        We beleive a good blace to live can make your life better
+                    </span>
+                    <Accordion
+                        className="accordion"
+                        allowMultipleExpanded={false}
+                        preExpanded={[0]}
+                    >
+                        {
+                            // Content goes here
+                        }
+                    </Accordion>
+
+                </div>
             </div>
         </section>
 
