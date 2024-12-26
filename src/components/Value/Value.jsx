@@ -12,7 +12,17 @@ import './Value.css';
 
 const Value = () => {
     return (
-        <div>Value</div>
+        <section className="v-wrapper">
+            <div className="paddings innerWidth flexCenter v-container">
+                {/* left side */}
+                <div className="v-left">
+                    <div className="image-container">
+                        <img src="./value.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     );
 };
 
