@@ -54,6 +54,17 @@
     color: white;
     scale: 0.8;
 }
+.contactModes {
+    margin-top: 2rem;
+    gap: 1rem;
+    display: flex
+;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: baseline;
+}
 
 
 

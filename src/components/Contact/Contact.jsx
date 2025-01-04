@@ -35,7 +35,7 @@ const Contact = () => {
                                     Call Now
                                 </div>
                           </div>
-                         </div>
+
                         <div className="flexStart row">
                             <div className="flexColCenter mode">
                             <div className="flexStart">
@@ -83,6 +83,7 @@ const Contact = () => {
                     </div>
                     <div className="flexCenter button">
                         Message Now
+                    </div>
                     </div>
                 </div>
                 </div>
