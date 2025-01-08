@@ -53,6 +53,7 @@
     background: var(--blue-gradient);
     color: white;
     scale: 0.8;
+    scale: 0.8;
 }
 .contactModes {
     margin-top: 2rem;
